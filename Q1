@@ -1,0 +1,24 @@
+class Main {
+
+    public static void main(String args[]) {
+        int a = 14, b = 7;
+
+    //Arithmetic Operators
+    System.out.println("a + b = " + (a + b));
+    System.out.println("a - b = " + (a - b));
+    System.out.println("a * b = " + (a * b));
+    System.out.println("a / b = " + (a / b));
+    System.out.println("a % b = " + (a % b));
+
+    // Bitwise Operators;
+	System.out.println("a OR b = " + (a | b));				
+	System.out.println("a AND b = " +(a & b));				
+	System.out.println("a XOR b = " + (a ^ b));
+
+    // Relational Operators;
+	System.out.println(a==b);
+	System.out.println(a!=b);
+	System.out.println(a>b);
+	System.out.println(a>=b);
+ }
+}
